@@ -210,3 +210,92 @@
   .wind::before {
     background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18a6 6 0 0 0 12 0M3 6a6 6 0 0 1 12 0M3 12h18"/></svg>');
   }
+  /*==============responsive========================*/
+  @media (max-width: 768px) {
+    .weather-card {
+      padding: 1.5rem;
+      max-width: 90%;
+      margin: 1rem;
+    }
+  
+    .weather-title {
+      font-size: 1.5rem;
+    }
+  
+    .search-input {
+      padding: 0.6rem 0.8rem;
+      font-size: 0.95rem;
+    }
+  
+    .search-button {
+      padding: 0.6rem 1rem;
+      font-size: 0.95rem;
+    }
+  
+    .temperature {
+      font-size: 2.5rem;
+    }
+  
+    .temperature::after {
+      font-size: 1.2rem;
+      top: 0.4rem;
+    }
+  
+    .city-name {
+      font-size: 1.5rem;
+    }
+  
+    .weather-description {
+      font-size: 1rem;
+    }
+  
+    .humidity,
+    .wind {
+      font-size: 1rem;
+    }
+  
+    .forecast {
+      justify-content: center;
+      margin-left: -39px;
+      padding-left: 25px;
+     }
+  
+    .forecast-hour {
+      width: 10px;
+      font-size: 0.60rem;
+       margin-left: 5px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .weather-title {
+      font-size: 1.3rem;
+    }
+  
+    .search-input {
+      font-size: 0.9rem;
+    }
+  
+    .search-button {
+      font-size: 0.9rem;
+      padding: 0.5rem 0.8rem;
+    }
+  
+    .forecast-hour {
+      width: 38px;
+    }
+  
+    .temperature {
+      font-size: 2.2rem;
+    }
+  
+    .weather-card {
+      padding: 1rem;
+    }
+  
+    .humidity,
+    .wind {
+      font-size: 0.9rem;
+    }
+  }
+  
